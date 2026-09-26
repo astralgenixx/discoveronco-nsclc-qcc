@@ -1,0 +1,9 @@
+{
+  "gdsc2": {
+    "n_sig_drugs": 36,
+    "n_non_sig_drugs": 250,
+    "sig_auc_mean": 0.8854777167327019,
+    "non_sig_auc_mean": 0.870087138258401,
+    "mwu_p": 0.5450476076799133
+  }
+}

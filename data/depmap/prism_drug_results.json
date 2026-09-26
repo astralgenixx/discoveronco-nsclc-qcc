@@ -1,0 +1,9 @@
+{
+  "prism": {
+    "n_sig_target_drugs": 155,
+    "n_non_sig_drugs": 1333,
+    "sig_auc_mean": 0.9000101102620567,
+    "non_sig_auc_mean": 0.9478682241178591,
+    "mwu_p": 0.0
+  }
+}

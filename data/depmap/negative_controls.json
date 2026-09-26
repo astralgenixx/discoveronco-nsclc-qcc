@@ -1,0 +1,43 @@
+{
+  "housekeeping": {
+    "genes": [
+      "ACTB",
+      "GAPDH",
+      "RPLP0",
+      "B2M",
+      "HPRT1",
+      "TUBB",
+      "EEF1A1",
+      "RPL13A",
+      "RPS18",
+      "PGK1",
+      "LDHA",
+      "NONO",
+      "PPIA",
+      "TBP",
+      "RPL32",
+      "RPS27A",
+      "RPL8",
+      "RPS6",
+      "RPL11",
+      "RPS14"
+    ],
+    "nsclc_mean": -1.4140408248671708,
+    "non_nsclc_mean": -1.4615535825958537
+  },
+  "random_null": {
+    "n_random": 1000,
+    "obs_diff": 0.005012057687475896,
+    "random_mean": 0.0011971436335983506,
+    "random_std": 0.002205375028989187,
+    "p_value": 0.059940059940059943,
+    "z_score": 1.7298255415660873
+  },
+  "pan_cancer": {
+    "sig_nsclc_mean": -0.14820417757096974,
+    "all_nsclc_mean": -0.14480487834224726,
+    "sig_non_nsclc_mean": -0.15321623525844563,
+    "all_non_nsclc_mean": -0.14601650659870297,
+    "mwu_p": NaN
+  }
+}

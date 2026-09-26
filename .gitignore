@@ -1,0 +1,15 @@
+# Large inputs: fetch per README, not committed
+data/depmap/CRISPRGeneEffect_26Q1.csv
+data/depmap/CCLE_expression.csv
+data/gdsc/GDSC2_AUC_Matrix.csv
+data/prism/prism_20q2_secondary_dose_response.csv
+data/tcga/*.tar.gz
+data/tcga/*_extracted/
+# Publisher supplement (download from MDPI; see README)
+data/signature/*.zip
+data/signature/*.gif
+data/signature/*.jpg
+# Python noise
+__pycache__/
+*.pyc
+.DS_Store

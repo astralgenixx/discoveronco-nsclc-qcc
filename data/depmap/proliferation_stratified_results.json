@@ -1,0 +1,93 @@
+{
+  "cohort_definition": "100 NSCLC CRISPR lines from primary analysis (\u00a73.2); CCLE TPM mapped for 97/100",
+  "dependency_low_vs_high": {
+    "enriched_fdr_low_less_essential": 0,
+    "genes_tested": 649,
+    "housekeeping_mapped": 20,
+    "housekeeping_mean_high": -1.376,
+    "housekeeping_mean_low": -1.349,
+    "low_subset_all_genes_mean": -0.1477,
+    "low_subset_signature_mean": -0.1384,
+    "mapped_housekeeping": 20,
+    "mapped_signature": 649,
+    "obs_mean_diff_low_minus_high": 0.0031,
+    "permutation": {
+      "n": 1000,
+      "p": 0.5315,
+      "z": 0.64
+    },
+    "random_set_null": {
+      "n_sets": 1000,
+      "p": 0.5435,
+      "set_size": 649,
+      "z": -0.09
+    },
+    "rows_high": 24,
+    "rows_low": 24,
+    "significantly_depleted_fdr_low_more_essential": 0
+  },
+  "drug_sensitivity_low_only": {
+    "gdsc2": {
+      "mwu_p": 0.7637,
+      "n_lines": 17,
+      "n_nontargeting": 250,
+      "n_sig_targeting": 36,
+      "non_auc": 0.8828,
+      "sig_auc": 0.9
+    },
+    "prism": {
+      "mwu_p": 0.0035,
+      "n_lines": 17,
+      "n_nontargeting": 1333,
+      "n_sig_targeting": 155,
+      "non_auc": 0.9694,
+      "note": "nominally significant; secondary analysis, same promiscuity caveat as primary PRISM signal",
+      "sig_auc": 0.9187
+    }
+  },
+  "high_quartile": {
+    "n": 24,
+    "score_min": 0.52
+  },
+  "low_quartile": {
+    "lines": [
+      "HCC-44",
+      "SNU-2535",
+      "ETCC-016",
+      "NCI-H2126",
+      "LXF-289",
+      "NCI-H1666",
+      "NCI-H650",
+      "IA-LM",
+      "KNS-62",
+      "RERF-LC-Ad2",
+      "NCI-H1793",
+      "SNU-1327",
+      "LCLC-97TM1",
+      "SK-MES-1",
+      "NCI-H1915",
+      "NCI-H1693",
+      "EKVX",
+      "LCLC-103H",
+      "A549_CRAF_KD",
+      "NCI-H292",
+      "NCI-H2110",
+      "NCI-H1944",
+      "HCC-827-GR5",
+      "NCI-H1648"
+    ],
+    "n": 24,
+    "score_max": -0.45
+  },
+  "pre_registration": "single targeted follow-up; bottom/top 25% split fixed before viewing dependency results; same 649-gene MWU+FDR + housekeeping + 1000-permutation + 1000 random-set + drug leg at n>=10/group",
+  "proliferation_genes": [
+    "MKI67",
+    "CCNA2",
+    "CCNB1",
+    "CCNB2",
+    "MCM2",
+    "PCNA"
+  ],
+  "proliferation_score": "mean z-score of log2(TPM+1) across 6 genes; CCLE RNA-seq via cBioPortal ccle_broad_2025 (1,600 samples)",
+  "provenance": "transcribed from scripts/08_proliferation_stratified.py run output 2026-09-27; script re-runnable"
+}

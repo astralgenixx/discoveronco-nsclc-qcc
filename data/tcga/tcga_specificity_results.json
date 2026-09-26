@@ -1,0 +1,24 @@
+{
+  "luad": {
+    "label": "TCGA-LUAD",
+    "n_tumor": 539,
+    "n_normal": 59,
+    "sig_genes_mapped": 667,
+    "tumor_mean": 20.19405413239577,
+    "normal_mean": 21.050907910451556,
+    "ratio": 0.9592961129419807,
+    "mwu_p": 0.9999987491909056,
+    "all_genes_p": 7.562791112104433e-113
+  },
+  "lusc": {
+    "label": "TCGA-LUSC",
+    "n_tumor": 511,
+    "n_normal": 51,
+    "sig_genes_mapped": 667,
+    "tumor_mean": 18.669493154792466,
+    "normal_mean": 21.55663271305524,
+    "ratio": 0.8660672287414235,
+    "mwu_p": 1.0,
+    "all_genes_p": 3.5577321423845414e-47
+  }
+}
