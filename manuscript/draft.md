@@ -142,7 +142,7 @@ The NSCLC quiescence signature, while transcriptionally well-defined, does not m
 
 ## 6. Data Availability
 
-All data used in this study are publicly available: DepMap 26Q1 (depmap.org), GDSC2 (cancerrxgene.org), PRISM 20Q2 (figshare), TCGA-LUAD/LUSC (GDC API). CCLE RNA-seq TPM values for the proliferation score were obtained via the cBioPortal API (study ccle_broad_2025). The 676-gene signature is provided in Supplementary Table S1. All analysis scripts and intermediate results are available from the authors upon request.
+All data used in this study are publicly available: DepMap 26Q1 (depmap.org), GDSC2 (cancerrxgene.org), PRISM 20Q2 (figshare), TCGA-LUAD/LUSC (GDC API). CCLE RNA-seq TPM values for the proliferation score were obtained via the cBioPortal API (study ccle_broad_2025). The 676-gene signature is provided in Supplementary Table S1. All analysis scripts, the 676-gene signature, derived result files (Tables S1–S7), and figures are publicly available at https://github.com/astralgenixx/discoveronco-nsclc-qcc (large primary inputs excluded per README, with fetch instructions).
 
 ---
 
