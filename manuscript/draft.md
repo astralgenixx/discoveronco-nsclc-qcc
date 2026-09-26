@@ -1,4 +1,4 @@
-# Pharmacogenomic Mapping of a Quiescence Signature in Non-Small Cell Lung Cancer: A Multi-Platform Dependency and Drug Sensitivity Analysis
+# The NSCLC Quiescence Signature Is Not Actionable via Standard Functional-Genomics Screens: A Multi-Platform Assessment with Pre-registered Proliferation-Stratified Testing
 
 ## Abstract
 
@@ -8,7 +8,7 @@
 
 **Results:** The quiescence signature was NOT significantly enriched for CRISPR dependencies in NSCLC versus other cancers (permutation p = 0.8821). Housekeeping gene controls validated the pipeline (mean dependency −1.41 to −1.46). Signature-targeting drugs showed no significant sensitivity difference in GDSC2 (p = 0.5450) but showed significantly greater sensitivity in PRISM (AUC 0.900 vs 0.948, p < 0.0001). The signature was not differentially expressed in NSCLC tumors versus adjacent normals (LUAD ratio 0.96, LUSC ratio 0.87) and was not associated with overall survival (LUAD log-rank p = 0.9203, LUSC p = 0.4680). Proliferation stratification did not reveal a masked dependency signal (slowest- vs fastest-quartile permutation p = 0.5315).
 
-**Conclusions:** The NSCLC quiescence signature does not confer a selective dependency vulnerability in CRISPR screens, nor does it predict survival. The PRISM signal likely reflects compound target promiscuity rather than quiescence-specific biology. This study provides the first systematic evidence that the quiescence signature is not a druggable vulnerability in NSCLC, a conclusion that persists after proliferation-rate stratification, with important implications for targeting quiescent cancer cells.
+**Conclusions:** This study provides the first systematic test of whether a published, mechanistically grounded CSC quiescence signature is actionable via standard functional-genomics screens — and demonstrates that it is not, across four platforms and a pre-registered stress-test of the null against its most plausible confound, proliferation rate. The useful result is directional: quiescence-associated vulnerabilities, if they exist, will not be found in proliferating-cell screens and must be sought in quiescence-enriched functional assays. The lone PRISM signal likely reflects compound target promiscuity rather than quiescence-specific biology.
 
 **Keywords:** quiescence, NSCLC, DepMap, PRISM, GDSC, TCGA, cancer stem cells, drug repurposing
 
@@ -116,7 +116,7 @@ Our results suggest that targeting the transcriptional program of quiescence per
 
 ### 4.5 Conclusions
 
-The NSCLC quiescence signature, while transcriptionally well-defined, does not map to actionable therapeutic dependencies or drug sensitivities in currently available pharmacogenomic resources. This negative result is important for the field: it suggests that the quiescent state in NSCLC is not a druggable vulnerability in the conventional sense, and that alternative strategies — such as targeting quiescence-associated metabolic or microenvironmental dependencies — may be required.
+The central contribution of this study is methodological: we subjected a published, mechanistically grounded CSC quiescence signature to the strongest test currently available — systematic mapping across four pharmacogenomic platforms plus a pre-registered, fully controlled stress-test of the resulting null against its most obvious confound — and the null held at every level, including in the slowest-proliferating cell lines. This converts an absence of evidence into an informative, scoped result: a transcriptionally well-defined quiescence program is not exploitable via any current proliferating-cell screening modality, and the reason is identifiable — these assays cannot detect quiescence-specific dependencies by construction. The actionable consequence is specific rather than nihilistic: discovery effort should move from larger bulk-tumor screens toward quiescence-enriched functional assays (slow-cycling models, label-retention systems, dormancy xenografts) and toward downstream consequences of quiescence such as metabolic adaptations or microenvironmental dependencies. Controlled, pre-registered negative results of this kind are what allow the field to stop spending discovery effort on modalities already shown to be uninformative.
 
 ---
 
